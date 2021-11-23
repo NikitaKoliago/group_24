@@ -1,0 +1,172 @@
+{
+	"id": "93affb6c-1a6e-458e-a023-544cc02d8108",
+	"name": "HW_1",
+	"timestamp": "2021-11-23T14:00:30.818Z",
+	"collection_id": "17274994-a4dea534-cec9-401f-b432-b689f9923c07",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "9df1b353-67a7-4897-b551-746d532fcd43",
+			"name": "New Request",
+			"url": "http://162.55.220.72:5005/get_method?name=Nikita&age=28",
+			"time": 78,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				78
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1ef817ba-c0df-4373-8f97-26c80d2790bb",
+			"name": "New Request",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 81,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				81
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b789713c-6516-4834-967f-21c34e1b6389",
+			"name": "New Request",
+			"url": "http://162.55.220.72:5005/object_info_1?name=Nikita&age=28&weight=70",
+			"time": 64,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				64
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "40bf0d53-2b03-41e4-b180-4a707b778117",
+			"name": "New Request",
+			"url": "http://162.55.220.72:5005/object_info_2?name=Nikita&age=28&salary=1000",
+			"time": 73,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				73
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b0a469ef-d653-410e-b80a-e89745cf15c0",
+			"name": "New Request",
+			"url": "http://162.55.220.72:5005/object_info_3?name=Nikita&age=28&salary=1000",
+			"time": 82,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				82
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "02666277-a9e2-4d77-b7ff-f945d32ef445",
+			"name": "New Request",
+			"url": "http://162.55.220.72:5005/object_info_4?name=Nikita&age=27&salary=1000",
+			"time": 82,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				82
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b54dd10a-dfb2-4dc3-b330-40501376e384",
+			"name": "New Request",
+			"url": "http://162.55.220.72:5005/user_info_2",
+			"time": 82,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				82
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 542,
+	"collection": {
+		"requests": [
+			{
+				"id": "9df1b353-67a7-4897-b551-746d532fcd43",
+				"method": "GET"
+			},
+			{
+				"id": "1ef817ba-c0df-4373-8f97-26c80d2790bb",
+				"method": "POST"
+			},
+			{
+				"id": "b789713c-6516-4834-967f-21c34e1b6389",
+				"method": "GET"
+			},
+			{
+				"id": "40bf0d53-2b03-41e4-b180-4a707b778117",
+				"method": "GET"
+			},
+			{
+				"id": "b0a469ef-d653-410e-b80a-e89745cf15c0",
+				"method": "GET"
+			},
+			{
+				"id": "02666277-a9e2-4d77-b7ff-f945d32ef445",
+				"method": "GET"
+			},
+			{
+				"id": "b54dd10a-dfb2-4dc3-b330-40501376e384",
+				"method": "POST"
+			}
+		]
+	}
+}
